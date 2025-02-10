@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>하이</title>
+</head>
+<body>
+    <h1>안녕하세요^-^</h1>
+    <ul>
+        <li th:each="data,p: ${datas}">
+            <b>데이터[[${p.count}]]:</b>
+            <span>[[${data}]]</span>
+        </li>
+    </ul>
+</body>
+</html>
